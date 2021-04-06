@@ -43,6 +43,7 @@ elif os.name == 'posix':
 elif os.name == "darwin":
     suche_path=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")  
 
+
 #Pfad Minecraft Ordner
 if os.name == 'nt':
     suche_path_noMod=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")
@@ -76,8 +77,6 @@ def open_ordner():
             subprocess.call([opener, suche_path])
         
 
-
-
 #Speichern Funktion mit Download und Extrahieren der Zip
 def save(self,url,button,text):
 
@@ -94,7 +93,6 @@ def save(self,url,button,text):
             self.downloadThread = downloadThread(self, url, button, text, the_filesize, the_fileobj, buffer, folder)
             self.downloadThread.download_proess_signal.connect(self.set_progressbar_value)
             self.downloadThread.start()
-
 
 
 #Download thread
@@ -149,7 +147,6 @@ class downloadThread(QThread):
             print(e)
 
 
-
 #Popup Window
 class Popup(QWidget):
     def __init__(self,self_Mainwindow,url,button,text):
@@ -175,7 +172,6 @@ class Popup(QWidget):
     def schließen(self):
         self.close()
         
-
 
 #Main Window
 class MainWindow(QMainWindow):
@@ -231,7 +227,6 @@ class MainWindow(QMainWindow):
         self.ui.label_Endtext.setText("Mods sind noch nicht geladen")
 
     
-
     # Setting progress bar
     def set_progressbar_value(self, value):
         self.ui.progressBar.setValue(value)
@@ -246,9 +241,6 @@ class MainWindow(QMainWindow):
     def closeIt(self):
         app = QApplication.instance()
         app.closeAllWindows()
-
-
-
 
 
 if __name__ == "__main__":
