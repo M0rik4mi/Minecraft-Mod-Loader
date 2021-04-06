@@ -9,7 +9,7 @@ import subprocess
 from zipfile import ZipFile
 from PySide6 import QtCore, QtGui, QtWidgets, QtUiTools
 from PySide6.QtCore import QThread, QObject, Signal
-from PySide6.QtGui import QColor, QIcon
+from PySide6.QtGui import QColor, QIcon, QScreen
 from PySide6.QtWidgets import QWidget, QMainWindow, QApplication, QGraphicsDropShadowEffect, QMessageBox, QFileDialog
 
 #Grafik
@@ -154,10 +154,20 @@ class Popup(QWidget):
         self.Popup = Ui_Popup()
         self.Popup.setupUi(self)
 
+        #Remove Titelbar
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
 
+        #Set to Screen center
+        qtRectangle = self.frameGeometry()
+        centerPoint = QScreen.availableGeometry(QApplication.primaryScreen()).center()
+        qtRectangle.moveCenter(centerPoint)
+        self.move(qtRectangle.topLeft())
+
+        #Popup Text
         self.Popup.label.setText('Ist der Modordner leer?')
+
+        #Popup Buttons
         self.Popup.OkayButton.setText("Ja")
         self.Popup.OkayButton.clicked.connect(lambda:self.save(self_Mainwindow, url, button, text))
         self.Popup.OrdnerButton.setText('Öffne Ordner')
@@ -183,6 +193,12 @@ class MainWindow(QMainWindow):
         #Remove Titelbar
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
+
+        #Set to Screen center
+        qtRectangle = self.frameGeometry()
+        centerPoint = QScreen.availableGeometry(QApplication.primaryScreen()).center()
+        qtRectangle.moveCenter(centerPoint)
+        self.move(qtRectangle.topLeft())
 
         #Drop Shadow Effect
         self.shadow = QGraphicsDropShadowEffect(self)

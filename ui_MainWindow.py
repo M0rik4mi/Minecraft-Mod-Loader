@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowHPlRQm.ui'
+## Form generated from reading UI file 'MainWindowQpmuvJ.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.0.2
 ##
@@ -33,42 +33,14 @@ class Ui_MainWindow(object):
 "}")
         self.dropSchadowframe.setFrameShape(QFrame.StyledPanel)
         self.dropSchadowframe.setFrameShadow(QFrame.Raised)
-        self.label_titel = QLabel(self.dropSchadowframe)
-        self.label_titel.setObjectName(u"label_titel")
-        self.label_titel.setEnabled(True)
-        self.label_titel.setGeometry(QRect(225, 10, 550, 60))
-        font = QFont()
-        font.setFamily(u"Segoe UI")
-        font.setPointSize(40)
-        font.setBold(False)
-        font.setItalic(False)
-        font.setUnderline(False)
-        font.setStrikeOut(False)
-        self.label_titel.setFont(font)
-        self.label_titel.setAutoFillBackground(False)
-        self.label_titel.setStyleSheet(u"QLabel {	\n"
-"	color: rgba(0, 0, 0);\n"
-"	border-style: none;\n"
-"	border-radius: 17px;\n"
-"	text-align: center;\n"
-"}\n"
-"")
-        self.label_titel.setFrameShape(QFrame.NoFrame)
-        self.label_titel.setLineWidth(1)
-        self.label_titel.setText(u"")
-        self.label_titel.setTextFormat(Qt.AutoText)
-        self.label_titel.setScaledContents(False)
-        self.label_titel.setAlignment(Qt.AlignCenter)
-        self.label_titel.setWordWrap(False)
-        self.label_titel.setIndent(-1)
         self.label_description = QLabel(self.dropSchadowframe)
         self.label_description.setObjectName(u"label_description")
         self.label_description.setGeometry(QRect(10, 100, 960, 200))
         self.label_description.setMaximumSize(QSize(16777215, 16777215))
-        font1 = QFont()
-        font1.setFamily(u"Segoe UI")
-        font1.setPointSize(25)
-        self.label_description.setFont(font1)
+        font = QFont()
+        font.setFamily(u"Segoe UI")
+        font.setPointSize(25)
+        self.label_description.setFont(font)
         self.label_description.setStyleSheet(u"QLabel {\n"
 "	color: rgba(0, 0, 0);\n"
 "}")
@@ -79,11 +51,11 @@ class Ui_MainWindow(object):
         self.pushButton_Minecraft_1_16_5 = QPushButton(self.dropSchadowframe)
         self.pushButton_Minecraft_1_16_5.setObjectName(u"pushButton_Minecraft_1_16_5")
         self.pushButton_Minecraft_1_16_5.setGeometry(QRect(375, 325, 250, 70))
-        font2 = QFont()
-        font2.setFamily(u"Segoe UI")
-        font2.setPointSize(12)
-        font2.setBold(True)
-        self.pushButton_Minecraft_1_16_5.setFont(font2)
+        font1 = QFont()
+        font1.setFamily(u"Segoe UI")
+        font1.setPointSize(12)
+        font1.setBold(True)
+        self.pushButton_Minecraft_1_16_5.setFont(font1)
         self.pushButton_Minecraft_1_16_5.setStyleSheet(u"QPushButton {		\n"
 "	background-color: rgb(150, 150, 150);\n"
 "	color: rgb(255, 255, 255);\n"
@@ -91,12 +63,12 @@ class Ui_MainWindow(object):
         self.pushButton_Minecraft_1_16_4_Create = QPushButton(self.dropSchadowframe)
         self.pushButton_Minecraft_1_16_4_Create.setObjectName(u"pushButton_Minecraft_1_16_4_Create")
         self.pushButton_Minecraft_1_16_4_Create.setGeometry(QRect(75, 325, 250, 70))
-        font3 = QFont()
-        font3.setFamily(u"Segoe UI")
-        font3.setPointSize(12)
-        font3.setBold(True)
-        font3.setItalic(False)
-        self.pushButton_Minecraft_1_16_4_Create.setFont(font3)
+        font2 = QFont()
+        font2.setFamily(u"Segoe UI")
+        font2.setPointSize(12)
+        font2.setBold(True)
+        font2.setItalic(False)
+        self.pushButton_Minecraft_1_16_4_Create.setFont(font2)
         self.pushButton_Minecraft_1_16_4_Create.setStyleSheet(u"QPushButton {	\n"
 "	background-color: rgb(150, 150, 150);\n"
 "	color: rgb(255, 255, 255);\n"
@@ -104,12 +76,12 @@ class Ui_MainWindow(object):
         self.pushButton_Minecraft_Life_in_the_Woods = QPushButton(self.dropSchadowframe)
         self.pushButton_Minecraft_Life_in_the_Woods.setObjectName(u"pushButton_Minecraft_Life_in_the_Woods")
         self.pushButton_Minecraft_Life_in_the_Woods.setGeometry(QRect(675, 325, 250, 70))
-        font4 = QFont()
-        font4.setFamily(u"Segoe UI")
-        font4.setPointSize(12)
-        font4.setBold(True)
-        font4.setKerning(True)
-        self.pushButton_Minecraft_Life_in_the_Woods.setFont(font4)
+        font3 = QFont()
+        font3.setFamily(u"Segoe UI")
+        font3.setPointSize(12)
+        font3.setBold(True)
+        font3.setKerning(True)
+        self.pushButton_Minecraft_Life_in_the_Woods.setFont(font3)
         self.pushButton_Minecraft_Life_in_the_Woods.setStyleSheet(u"QPushButton {	\n"
 "	background-color: rgb(150, 150, 150);\n"
 "	color: rgb(255, 255, 255);\n"
@@ -117,10 +89,10 @@ class Ui_MainWindow(object):
         self.progressBar = QProgressBar(self.dropSchadowframe)
         self.progressBar.setObjectName(u"progressBar")
         self.progressBar.setGeometry(QRect(75, 420, 850, 35))
-        font5 = QFont()
-        font5.setFamily(u"Segoe UI")
-        font5.setPointSize(10)
-        self.progressBar.setFont(font5)
+        font4 = QFont()
+        font4.setFamily(u"Segoe UI")
+        font4.setPointSize(10)
+        self.progressBar.setFont(font4)
         self.progressBar.setStyleSheet(u"QProgressBar{\n"
 "	background-color: rgb(20, 20, 20);	\n"
 "	color:rgb(255, 255, 255);\n"
@@ -137,14 +109,14 @@ class Ui_MainWindow(object):
         self.label_Endtext = QLabel(self.dropSchadowframe)
         self.label_Endtext.setObjectName(u"label_Endtext")
         self.label_Endtext.setGeometry(QRect(50, 470, 900, 100))
-        self.label_Endtext.setFont(font1)
+        self.label_Endtext.setFont(font)
         self.label_Endtext.setAlignment(Qt.AlignCenter)
         self.pushButton_Close = QPushButton(self.dropSchadowframe)
         self.pushButton_Close.setObjectName(u"pushButton_Close")
         self.pushButton_Close.setGeometry(QRect(930, 25, 25, 25))
-        font6 = QFont()
-        font6.setFamily(u"Javanese Text")
-        self.pushButton_Close.setFont(font6)
+        font5 = QFont()
+        font5.setFamily(u"Javanese Text")
+        self.pushButton_Close.setFont(font5)
         self.pushButton_Close.setAutoFillBackground(False)
         self.pushButton_Close.setStyleSheet(u"background-color: rgb(80, 80, 80);")
         icon = QIcon()
@@ -158,8 +130,34 @@ class Ui_MainWindow(object):
         self.frame.setStyleSheet(u"background-color: rgb(194, 194, 194);")
         self.frame.setFrameShape(QFrame.StyledPanel)
         self.frame.setFrameShadow(QFrame.Raised)
+        self.label_titel = QLabel(self.dropSchadowframe)
+        self.label_titel.setObjectName(u"label_titel")
+        self.label_titel.setEnabled(True)
+        self.label_titel.setGeometry(QRect(200, 10, 600, 60))
+        font6 = QFont()
+        font6.setFamily(u"Segoe UI")
+        font6.setPointSize(40)
+        font6.setBold(False)
+        font6.setItalic(False)
+        font6.setUnderline(False)
+        font6.setStrikeOut(False)
+        self.label_titel.setFont(font6)
+        self.label_titel.setAutoFillBackground(False)
+        self.label_titel.setStyleSheet(u"QLabel {\n"
+"	color: rgba(0, 0, 0);\n"
+"	text-align: center;\n"
+"	border-radius: 20px\n"
+"}\n"
+"")
+        self.label_titel.setFrameShape(QFrame.NoFrame)
+        self.label_titel.setLineWidth(0)
+        self.label_titel.setText(u"")
+        self.label_titel.setTextFormat(Qt.AutoText)
+        self.label_titel.setScaledContents(True)
+        self.label_titel.setAlignment(Qt.AlignCenter)
+        self.label_titel.setWordWrap(False)
+        self.label_titel.setIndent(-1)
         self.frame.raise_()
-        self.label_titel.raise_()
         self.label_description.raise_()
         self.pushButton_Minecraft_1_16_5.raise_()
         self.pushButton_Minecraft_1_16_4_Create.raise_()
@@ -167,6 +165,7 @@ class Ui_MainWindow(object):
         self.progressBar.raise_()
         self.label_Endtext.raise_()
         self.pushButton_Close.raise_()
+        self.label_titel.raise_()
 
         self.verticalLayout.addWidget(self.dropSchadowframe)
 
