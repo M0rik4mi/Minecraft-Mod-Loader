@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowQpmuvJ.ui'
+## Form generated from reading UI file 'MainWindowTwUBXH.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.0.2
 ##
@@ -26,7 +26,7 @@ class Ui_MainWindow(object):
         self.verticalLayout.setContentsMargins(10, 10, 10, 10)
         self.dropSchadowframe = QFrame(self.centralwidget)
         self.dropSchadowframe.setObjectName(u"dropSchadowframe")
-        self.dropSchadowframe.setStyleSheet(u"QFrame {\n"
+        self.dropSchadowframe.setStyleSheet(u"QFrame#dropSchadowframe {\n"
 "	background-color: rgb(240, 240, 240);	\n"
 "	color: rgb(255, 255, 255);\n"
 "	border-radius: 50px\n"
@@ -41,7 +41,9 @@ class Ui_MainWindow(object):
         font.setFamily(u"Segoe UI")
         font.setPointSize(25)
         self.label_description.setFont(font)
-        self.label_description.setStyleSheet(u"QLabel {\n"
+        self.label_description.setStyleSheet(u"QLabel#label_description {\n"
+"	background-color: rgb(240, 240, 240);	\n"
+"	border-radius: 25px;\n"
 "	color: rgba(0, 0, 0);\n"
 "}")
         self.label_description.setLineWidth(0)
@@ -110,6 +112,11 @@ class Ui_MainWindow(object):
         self.label_Endtext.setObjectName(u"label_Endtext")
         self.label_Endtext.setGeometry(QRect(50, 470, 900, 100))
         self.label_Endtext.setFont(font)
+        self.label_Endtext.setAutoFillBackground(False)
+        self.label_Endtext.setStyleSheet(u"QLabel#label_Endtext{	\n"
+"	background-color: rgb(240, 240, 240);	\n"
+"	border-radius: 25px\n"
+"}")
         self.label_Endtext.setAlignment(Qt.AlignCenter)
         self.pushButton_Close = QPushButton(self.dropSchadowframe)
         self.pushButton_Close.setObjectName(u"pushButton_Close")
@@ -127,45 +134,39 @@ class Ui_MainWindow(object):
         self.frame = QFrame(self.dropSchadowframe)
         self.frame.setObjectName(u"frame")
         self.frame.setGeometry(QRect(5, 5, 970, 570))
-        self.frame.setStyleSheet(u"background-color: rgb(194, 194, 194);")
+        self.frame.setStyleSheet(u"QFrame#frame {\n"
+"	background-color: rgb(194, 194, 194);\n"
+"	color: rgb(255, 255, 255);\n"
+"	border-radius: 50px\n"
+"}")
         self.frame.setFrameShape(QFrame.StyledPanel)
         self.frame.setFrameShadow(QFrame.Raised)
         self.label_titel = QLabel(self.dropSchadowframe)
         self.label_titel.setObjectName(u"label_titel")
-        self.label_titel.setEnabled(True)
         self.label_titel.setGeometry(QRect(200, 10, 600, 60))
+        self.label_titel.setMaximumSize(QSize(16777215, 16777215))
         font6 = QFont()
         font6.setFamily(u"Segoe UI")
         font6.setPointSize(40)
-        font6.setBold(False)
-        font6.setItalic(False)
-        font6.setUnderline(False)
-        font6.setStrikeOut(False)
         self.label_titel.setFont(font6)
-        self.label_titel.setAutoFillBackground(False)
-        self.label_titel.setStyleSheet(u"QLabel {\n"
+        self.label_titel.setStyleSheet(u"QLabel#label_titel {\n"
+"	background-color: rgb(240, 240, 240);	\n"
+"	border-radius: 25px;\n"
 "	color: rgba(0, 0, 0);\n"
-"	text-align: center;\n"
-"	border-radius: 20px\n"
-"}\n"
-"")
-        self.label_titel.setFrameShape(QFrame.NoFrame)
+"}")
         self.label_titel.setLineWidth(0)
         self.label_titel.setText(u"")
-        self.label_titel.setTextFormat(Qt.AutoText)
-        self.label_titel.setScaledContents(True)
         self.label_titel.setAlignment(Qt.AlignCenter)
-        self.label_titel.setWordWrap(False)
-        self.label_titel.setIndent(-1)
+        self.label_titel.setWordWrap(True)
         self.frame.raise_()
         self.label_description.raise_()
         self.pushButton_Minecraft_1_16_5.raise_()
         self.pushButton_Minecraft_1_16_4_Create.raise_()
         self.pushButton_Minecraft_Life_in_the_Woods.raise_()
         self.progressBar.raise_()
-        self.label_Endtext.raise_()
         self.pushButton_Close.raise_()
         self.label_titel.raise_()
+        self.label_Endtext.raise_()
 
         self.verticalLayout.addWidget(self.dropSchadowframe)
 
