@@ -207,7 +207,7 @@ class MainWindow(QMainWindow):
         self.ui.pushButton_Minecraft_Life_in_the_Woods.clicked.connect(lambda:self.popup(url2, button2, 'Minecraft Life in the Woods'))
 
         #Close Button
-        self.ui.pushButton_Close.setIcon(QIcon('C:/Python/Minecraft/Test Site/X.png'))
+        self.ui.pushButton_Close.setIcon(QIcon('X.png'))
         self.ui.pushButton_Close.clicked.connect(lambda:self.closeIt())
 
         #Progress Bar
@@ -243,7 +243,7 @@ if __name__ == "__main__":
     window = MainWindow() 
     window.show()
 
-    app.setWindowIcon(QIcon('C:/Python/Minecraft/Test Site/minecraft_logo.ico'))
-    window.setWindowIcon(QIcon('C:/Python/Minecraft/Test Site/minecraft_logo.ico'))
+    app.setWindowIcon(QIcon('minecraft_logo.ico'))
+    window.setWindowIcon(QIcon('minecraft_logo.ico'))
 
     sys.exit(app.exec_())
