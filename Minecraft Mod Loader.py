@@ -15,6 +15,9 @@ from ui_MainWindow import Ui_MainWindow
 from ui_Popup import Ui_Popup
 
 
+#BLABLABLABLA
+
+
 #Temp-Ordner zum Entpacken
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
