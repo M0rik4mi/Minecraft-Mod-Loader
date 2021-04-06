@@ -36,9 +36,20 @@ url2 = 'https://www.chaospur.de/wp-content/uploads/2021/02/1-7-10-Life-in-the-Wo
 
 
 #Pfad Minecraft Ordner
-suche_path=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")
-suche_path_noMod=os.path.expanduser("~/appdata/roaming/.minecraft/")
+if os.name == 'nt':
+    suche_path=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")
+elif os.name == 'posix':
+    suche_path=os.path.expanduser("~/.minecraft/mods/")
+elif os.name == "darwin":
+    suche_path=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")  
 
+#Pfad Minecraft Ordner
+if os.name == 'nt':
+    suche_path_noMod=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")
+elif os.name == 'posix':
+    suche_path_noMod=os.path.expanduser("~/.minecraft/mods/")
+elif os.name == "darwin":
+    suche_path_noMod=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")
 
 
 #Kein Download
