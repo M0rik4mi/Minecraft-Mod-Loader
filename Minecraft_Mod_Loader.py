@@ -138,7 +138,7 @@ class downloadThread(QThread):
             #Change Button Name
             self.button.setText(self.text)
 
-            self.self_Mainwindow.ui.label_Endtext.setStyleSheet("color:Black")
+            self.self_Mainwindow.ui.label_Endtext.setStyleSheet("color:Black; background-color: rgb(240, 240, 240); border-radius: 25px;")
             self.self_Mainwindow.ui.label_Endtext.setText(self.text + "Mods sind fertig geladen. \n Viel Spaß beim Spielen.")
             
             self.exit(0)            #Close thread
@@ -209,12 +209,10 @@ class MainWindow(QMainWindow):
         self.ui.dropSchadowframe.setGraphicsEffect(self.shadow)
 
         #Titel
-        self.ui.label_titel.setStyleSheet("color:Black")
         self.ui.label_titel.setText("Minecraft Mod Loader")
 
         #Description
         #self.ui.label_description.setWordWrap(true)
-        self.ui.label_description.setStyleSheet("color:Black")
         self.ui.label_description.setText("1.Wähle den gewünschten Server. <br> 2.Stelle sicher das der Modordner leer ist. <br> 3.Fertig")
 
         #Button Minecraft_1_16_5
@@ -239,7 +237,6 @@ class MainWindow(QMainWindow):
         self.ui.progressBar.setValue(0)
 
         #Endtext
-        self.ui.label_Endtext.setStyleSheet("color:Red")
         self.ui.label_Endtext.setText("Mods sind noch nicht geladen")
 
     

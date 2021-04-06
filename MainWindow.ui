@@ -45,234 +45,6 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="label_description">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>100</y>
-         <width>960</width>
-         <height>200</height>
-        </rect>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI</family>
-         <pointsize>25</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QLabel#label_description {
-	background-color: rgb(240, 240, 240);	
-	border-radius: 25px;
-	color: rgba(0, 0, 0);
-}</string>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string notr="true"/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_Minecraft_1_16_5">
-       <property name="geometry">
-        <rect>
-         <x>375</x>
-         <y>325</y>
-         <width>250</width>
-         <height>70</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI</family>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {		
-	background-color: rgb(150, 150, 150);
-	color: rgb(255, 255, 255);
-}</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_Minecraft_1_16_4_Create">
-       <property name="geometry">
-        <rect>
-         <x>75</x>
-         <y>325</y>
-         <width>250</width>
-         <height>70</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI</family>
-         <pointsize>12</pointsize>
-         <italic>false</italic>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {	
-	background-color: rgb(150, 150, 150);
-	color: rgb(255, 255, 255);
-}</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_Minecraft_Life_in_the_Woods">
-       <property name="geometry">
-        <rect>
-         <x>675</x>
-         <y>325</y>
-         <width>250</width>
-         <height>70</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI</family>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-         <kerning>true</kerning>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {	
-	background-color: rgb(150, 150, 150);
-	color: rgb(255, 255, 255);
-}</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QProgressBar" name="progressBar">
-       <property name="geometry">
-        <rect>
-         <x>75</x>
-         <y>420</y>
-         <width>850</width>
-         <height>35</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI</family>
-         <pointsize>10</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QProgressBar{
-	background-color: rgb(20, 20, 20);	
-	color:rgb(255, 255, 255);
-	border-style: none;
-	border-radius: 17px;
-	text-align: center;
-}
-QProgressBar::chunk{	
-	border-radius: 17px;
-	background-color: qlineargradient(spread:pad, x1:0, y1:0.341, x2:1, y2:0.739, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(0, 0, 255, 255));
-}</string>
-       </property>
-       <property name="value">
-        <number>24</number>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_Endtext">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>470</y>
-         <width>900</width>
-         <height>100</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI</family>
-         <pointsize>25</pointsize>
-        </font>
-       </property>
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QLabel#label_Endtext{	
-	background-color: rgb(240, 240, 240);	
-	border-radius: 25px
-}</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_Close">
-       <property name="geometry">
-        <rect>
-         <x>930</x>
-         <y>25</y>
-         <width>25</width>
-         <height>25</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Javanese Text</family>
-        </font>
-       </property>
-       <property name="whatsThis">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(80, 80, 80);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
-         <normalon>:/CloseButton/X.png</normalon>
-        </iconset>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>25</width>
-         <height>25</height>
-        </size>
-       </property>
-       <property name="flat">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="QFrame" name="frame">
        <property name="geometry">
         <rect>
@@ -283,7 +55,7 @@ QProgressBar::chunk{
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">QFrame#frame {
+        <string notr="true">QFrame{
 	background-color: rgb(194, 194, 194);
 	color: rgb(255, 255, 255);
 	border-radius: 50px
@@ -295,57 +67,285 @@ QProgressBar::chunk{
        <property name="frameShadow">
         <enum>QFrame::Raised</enum>
        </property>
-      </widget>
-      <widget class="QLabel" name="label_titel">
-       <property name="geometry">
-        <rect>
-         <x>200</x>
-         <y>10</y>
-         <width>600</width>
-         <height>60</height>
-        </rect>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI</family>
-         <pointsize>40</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QLabel#label_titel {
+       <widget class="QProgressBar" name="progressBar">
+        <property name="geometry">
+         <rect>
+          <x>65</x>
+          <y>410</y>
+          <width>850</width>
+          <height>35</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QProgressBar{
+	background-color: rgb(20, 20, 20);	
+	color:rgb(255, 255, 255);
+	border-style: none;
+	border-radius: 17px;
+	text-align: center;
+}
+QProgressBar::chunk{	
+	border-radius: 17px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.341, x2:1, y2:0.739, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(0, 0, 255, 255));
+}</string>
+        </property>
+        <property name="value">
+         <number>24</number>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_Minecraft_1_16_5">
+        <property name="geometry">
+         <rect>
+          <x>365</x>
+          <y>315</y>
+          <width>250</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgb(150, 150, 150);
+	color: rgb(255, 255, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_Minecraft_1_16_4_Create">
+        <property name="geometry">
+         <rect>
+          <x>65</x>
+          <y>315</y>
+          <width>250</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgb(150, 150, 150);
+	color: rgb(255, 255, 255);
+ }</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_Endtext">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>460</y>
+          <width>900</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{	
+	color: rgb(255, 0, 0);
 	background-color: rgb(240, 240, 240);	
 	border-radius: 25px;
-	color: rgba(0, 0, 0);
 }</string>
-       </property>
-       <property name="lineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string notr="true"/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_Close">
+        <property name="geometry">
+         <rect>
+          <x>920</x>
+          <y>15</y>
+          <width>25</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Javanese Text</family>
+         </font>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: rgb(80, 80, 80);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/CloseButton/X.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_description">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>90</y>
+          <width>960</width>
+          <height>200</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{	
+	color: rgb(0, 0, 0);
+	background-color: rgb(240, 240, 240);	
+	border-radius: 25px;
+}</string>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_Minecraft_Life_in_the_Woods">
+        <property name="geometry">
+         <rect>
+          <x>665</x>
+          <y>315</y>
+          <width>250</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgb(150, 150, 150);
+	color: rgb(255, 255, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_titel">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>600</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>40</pointsize>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{	
+	color: rgb(0, 0, 0);
+	background-color: rgb(240, 240, 240);	
+	border-radius: 25px;
+}</string>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
       </widget>
-      <zorder>frame</zorder>
-      <zorder>label_description</zorder>
-      <zorder>pushButton_Minecraft_1_16_5</zorder>
-      <zorder>pushButton_Minecraft_1_16_4_Create</zorder>
-      <zorder>pushButton_Minecraft_Life_in_the_Woods</zorder>
-      <zorder>progressBar</zorder>
-      <zorder>pushButton_Close</zorder>
-      <zorder>label_titel</zorder>
-      <zorder>label_Endtext</zorder>
      </widget>
     </item>
    </layout>
