@@ -7,7 +7,7 @@ import os
 import threading
 import subprocess
 from zipfile import ZipFile
-from PySide6 import QtCore, QtGui, QtWidgets, QtUiTools
+from PySide6 import QtCore, QtGui, QtWidgets
 from PySide6.QtCore import QThread, QObject, Signal
 from PySide6.QtGui import QColor, QIcon, QScreen
 from PySide6.QtWidgets import QWidget, QMainWindow, QApplication, QGraphicsDropShadowEffect, QMessageBox, QFileDialog
