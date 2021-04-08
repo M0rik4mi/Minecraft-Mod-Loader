@@ -230,7 +230,8 @@ class MainWindow(QMainWindow):
         self.ui.pushButton_Minecraft_Life_in_the_Woods.clicked.connect(lambda:self.popup(url2, button2, 'Minecraft Life in the Woods'))
 
         #Close Button
-        self.ui.pushButton_Close.setIcon(QIcon('X.png'))
+        close_image = resource_path("X.png")
+        self.ui.pushButton_Close.setIcon(QIcon(close_image))
         self.ui.pushButton_Close.clicked.connect(lambda:self.closeIt())
 
         #Progress Bar
