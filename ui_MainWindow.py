@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowXFhiBw.ui'
+## Form generated from reading UI file 'MainWindowUdHpTB.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.0.2
 ##
@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1000, 600)
+        MainWindow.resize(1000, 800)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
@@ -35,7 +35,7 @@ class Ui_MainWindow(object):
         self.dropSchadowframe.setFrameShadow(QFrame.Raised)
         self.frame = QFrame(self.dropSchadowframe)
         self.frame.setObjectName(u"frame")
-        self.frame.setGeometry(QRect(5, 5, 970, 570))
+        self.frame.setGeometry(QRect(5, 5, 970, 770))
         self.frame.setStyleSheet(u"QFrame{\n"
 "	background-color: rgb(194, 194, 194);\n"
 "	color: rgb(255, 255, 255);\n"
@@ -45,7 +45,7 @@ class Ui_MainWindow(object):
         self.frame.setFrameShadow(QFrame.Raised)
         self.progressBar = QProgressBar(self.frame)
         self.progressBar.setObjectName(u"progressBar")
-        self.progressBar.setGeometry(QRect(65, 410, 850, 35))
+        self.progressBar.setGeometry(QRect(65, 610, 850, 35))
         font = QFont()
         font.setFamily(u"Segoe UI")
         font.setPointSize(10)
@@ -65,7 +65,7 @@ class Ui_MainWindow(object):
         self.progressBar.setAlignment(Qt.AlignCenter)
         self.pushButton_Minecraft_1_16_5 = QPushButton(self.frame)
         self.pushButton_Minecraft_1_16_5.setObjectName(u"pushButton_Minecraft_1_16_5")
-        self.pushButton_Minecraft_1_16_5.setGeometry(QRect(365, 315, 250, 70))
+        self.pushButton_Minecraft_1_16_5.setGeometry(QRect(365, 515, 250, 70))
         font1 = QFont()
         font1.setFamily(u"Segoe UI")
         font1.setPointSize(12)
@@ -77,7 +77,7 @@ class Ui_MainWindow(object):
 "}")
         self.pushButton_Minecraft_1_16_4_Create = QPushButton(self.frame)
         self.pushButton_Minecraft_1_16_4_Create.setObjectName(u"pushButton_Minecraft_1_16_4_Create")
-        self.pushButton_Minecraft_1_16_4_Create.setGeometry(QRect(65, 315, 250, 70))
+        self.pushButton_Minecraft_1_16_4_Create.setGeometry(QRect(65, 515, 250, 70))
         font2 = QFont()
         font2.setFamily(u"Segoe UI")
         font2.setPointSize(12)
@@ -90,7 +90,7 @@ class Ui_MainWindow(object):
 " }")
         self.label_Endtext = QLabel(self.frame)
         self.label_Endtext.setObjectName(u"label_Endtext")
-        self.label_Endtext.setGeometry(QRect(40, 460, 900, 100))
+        self.label_Endtext.setGeometry(QRect(40, 660, 900, 100))
         font3 = QFont()
         font3.setFamily(u"Segoe UI")
         font3.setPointSize(25)
@@ -119,7 +119,7 @@ class Ui_MainWindow(object):
         self.pushButton_Close.setFlat(True)
         self.label_description = QLabel(self.frame)
         self.label_description.setObjectName(u"label_description")
-        self.label_description.setGeometry(QRect(5, 90, 960, 200))
+        self.label_description.setGeometry(QRect(5, 90, 961, 300))
         self.label_description.setMaximumSize(QSize(16777215, 16777215))
         self.label_description.setFont(font3)
         self.label_description.setAutoFillBackground(False)
@@ -134,7 +134,7 @@ class Ui_MainWindow(object):
         self.label_description.setWordWrap(True)
         self.pushButton_Minecraft_Life_in_the_Woods = QPushButton(self.frame)
         self.pushButton_Minecraft_Life_in_the_Woods.setObjectName(u"pushButton_Minecraft_Life_in_the_Woods")
-        self.pushButton_Minecraft_Life_in_the_Woods.setGeometry(QRect(665, 315, 250, 70))
+        self.pushButton_Minecraft_Life_in_the_Woods.setGeometry(QRect(665, 515, 250, 70))
         font5 = QFont()
         font5.setFamily(u"Segoe UI")
         font5.setPointSize(12)
@@ -163,6 +163,17 @@ class Ui_MainWindow(object):
         self.label_titel.setText(u"")
         self.label_titel.setAlignment(Qt.AlignCenter)
         self.label_titel.setWordWrap(True)
+        self.pushButton_Event = QPushButton(self.frame)
+        self.pushButton_Event.setObjectName(u"pushButton_Event")
+        self.pushButton_Event.setGeometry(QRect(35, 420, 900, 70))
+        font7 = QFont()
+        font7.setPointSize(12)
+        font7.setBold(True)
+        self.pushButton_Event.setFont(font7)
+        self.pushButton_Event.setStyleSheet(u"QPushButton{\n"
+"	background-color: rgb(0, 13, 255);\n"
+"	color: rgb(255, 255, 255);\n"
+" }")
 
         self.verticalLayout.addWidget(self.dropSchadowframe)
 
@@ -183,5 +194,6 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(whatsthis)
         self.pushButton_Close.setText("")
         self.pushButton_Minecraft_Life_in_the_Woods.setText("")
+        self.pushButton_Event.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
     # retranslateUi
 

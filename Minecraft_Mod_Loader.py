@@ -33,11 +33,12 @@ def resource_path(relative_path):
 url0 = 'https://www.chaospur.de/wp-content/uploads/2021/02/1-16-4-Create-Mods.zip'
 url1 = 'Gibt keine Mods'
 url2 = 'https://www.chaospur.de/wp-content/uploads/2021/02/1-7-10-Life-in-the-Woods.zip'
+url3 = 'https://www.chaospur.de/download/1-12-2-zombie-apocalypse/?wpdmdl=181&masterkey=6071c7df042dd'
 
 
 #Pfad Minecraft Ordner
 if os.name == 'nt':
-    suche_path=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")
+    suche_path=os.path.expanduser("~\\appdata\\roaming\\.minecraft\\mods\\")
 elif os.name == 'posix':
     suche_path=os.path.expanduser("~/.minecraft/mods/")
 elif os.name == "darwin":
@@ -46,7 +47,7 @@ elif os.name == "darwin":
 
 #Pfad Minecraft Ordner
 if os.name == 'nt':
-    suche_path_noMod=os.path.expanduser("~/appdata/roaming/.minecraft/mods/")
+    suche_path_noMod=os.path.expanduser("~~\\appdata\\roaming\\.minecraft\\mods\\")
 elif os.name == 'posix':
     suche_path_noMod=os.path.expanduser("~/.minecraft/mods/")
 elif os.name == "darwin":
@@ -65,8 +66,8 @@ def noDownload(self, button):
 #Öffne .minecraft/Mod Ordner
 def suche():
     if not os.path.exists(suche_path):
-        if os.path.exists(suche_path_noMod):
-            os.makedirs(suche_path)
+        #if os.path.exists(suche_path_noMod):   Funktioniert mit der Systemabfrage nicht mehr!!!
+        os.makedirs(suche_path)
     open_ordner()
 
 def open_ordner():
@@ -213,7 +214,12 @@ class MainWindow(QMainWindow):
 
         #Description
         #self.ui.label_description.setWordWrap(true)
-        self.ui.label_description.setText("1.Wähle den gewünschten Server. <br> 2.Stelle sicher das der Modordner leer ist. <br> 3.Fertig")
+        self.ui.label_description.setText("1.Wähle den gewünschten Server. <br> 2.Stelle sicher das der Modordner leer ist. <br> 3.Fertig <br> Ob grade ein Eventserver läuft erfahrt ihr im TS!<br>Falls ihr die Skins geändert haben wollt liegt im Download eine Zip für die Assets. Lasst den Ordner vom Popup dafür einfach offen.")
+
+        #Button Minecraft_1_16_5
+        self.ui.pushButton_Event.setText('Event-Server')
+        button_event=self.ui.pushButton_Event
+        self.ui.pushButton_Event.clicked.connect(lambda:self.popup(url3, button_event, 'Event-Server'))
 
         #Button Minecraft_1_16_5
         self.ui.pushButton_Minecraft_1_16_5.setText('Minecraft 1.16.5')
